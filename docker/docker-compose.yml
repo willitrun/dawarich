@@ -44,7 +44,7 @@ services:
     environment:
       RAILS_ENV: development
       DATABASE_HOST: dawarich_db
-      DATABASE_USERNAME: postgres
+      DATABASE_USER: postgres
       DATABASE_PASSWORD: password
       DATABASE_NAME: dawarich_development
       # SQLite database paths for secondary databases
